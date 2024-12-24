@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0a4243af14f41221eec6bd72158969a3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0a4243af14f41221eec6bd72158969a3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0a4243af14f41221eec6bd72158969a3 = L.map(
+                "map_0a4243af14f41221eec6bd72158969a3",
+                {
+                    center: [35.170166200000004, 84.99023426666666],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c95d1dd0c48b3a8e6aa4927f1a706010 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c95d1dd0c48b3a8e6aa4927f1a706010.addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+            var circle_marker_3337548c644e7decc4c45fdb631e0b30 = L.circleMarker(
+                [26.82222, 100.44167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.86, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_a113a7f3153ca99d59614e4996345e2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d82415eb81858498a45fd4708ecc8540 = $(`<div id="html_d82415eb81858498a45fd4708ecc8540" style="width: 100.0%; height: 100.0%;">Jin'an Bridge - 1386.0 m</div>`)[0];
+                popup_a113a7f3153ca99d59614e4996345e2d.setContent(html_d82415eb81858498a45fd4708ecc8540);
+            
+        
+
+        circle_marker_3337548c644e7decc4c45fdb631e0b30.bindPopup(popup_a113a7f3153ca99d59614e4996345e2d)
+        ;
+
+        
+    
+    
+            var circle_marker_933ac86b0b8e025f35e2fa6bb95d32b4 = L.circleMarker(
+                [41.20861, 29.11806],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.08, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_4c9543fd00a1c3cd76e4c9798f35e074 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed6dbb67b729e54f485104211847da19 = $(`<div id="html_ed6dbb67b729e54f485104211847da19" style="width: 100.0%; height: 100.0%;">Yavuz Sultan Selim Bridge - 1408.0 m</div>`)[0];
+                popup_4c9543fd00a1c3cd76e4c9798f35e074.setContent(html_ed6dbb67b729e54f485104211847da19);
+            
+        
+
+        circle_marker_933ac86b0b8e025f35e2fa6bb95d32b4.bindPopup(popup_4c9543fd00a1c3cd76e4c9798f35e074)
+        ;
+
+        
+    
+    
+            var circle_marker_409c08bc781ce91f9f5f9177fda885e4 = L.circleMarker(
+                [53.707972, 0.450083],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.1, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_992fb5666b662e065382afd17856617f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a11ae1c26e8c06635d7ef015c9d79b7c = $(`<div id="html_a11ae1c26e8c06635d7ef015c9d79b7c" style="width: 100.0%; height: 100.0%;">Humber Bridge - 1410.0 m</div>`)[0];
+                popup_992fb5666b662e065382afd17856617f.setContent(html_a11ae1c26e8c06635d7ef015c9d79b7c);
+            
+        
+
+        circle_marker_409c08bc781ce91f9f5f9177fda885e4.bindPopup(popup_992fb5666b662e065382afd17856617f)
+        ;
+
+        
+    
+    
+            var circle_marker_652c4deada0cd784aaee459f0a24eae0 = L.circleMarker(
+                [32.17775, 118.940139],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.18, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_50157f5461636a618139629b08c84e87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9022f0b24aac231b8ced369a29d32f78 = $(`<div id="html_9022f0b24aac231b8ced369a29d32f78" style="width: 100.0%; height: 100.0%;">Nanjing Fourth Yangtze Bridge - 1418.0 m</div>`)[0];
+                popup_50157f5461636a618139629b08c84e87.setContent(html_9022f0b24aac231b8ced369a29d32f78);
+            
+        
+
+        circle_marker_652c4deada0cd784aaee459f0a24eae0.bindPopup(popup_50157f5461636a618139629b08c84e87)
+        ;
+
+        
+    
+    
+            var circle_marker_43c7fb28001111f7da9ec1e743c0011a = L.circleMarker(
+                [29.42472, 113.12222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.8, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_57f48c9962f03272b9a3fe6fee706c56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_074258450ca5e6dbe87192b29c86e8a1 = $(`<div id="html_074258450ca5e6dbe87192b29c86e8a1" style="width: 100.0%; height: 100.0%;">Second Dongtinghu Bridge [zh] - 1480.0 m</div>`)[0];
+                popup_57f48c9962f03272b9a3fe6fee706c56.setContent(html_074258450ca5e6dbe87192b29c86e8a1);
+            
+        
+
+        circle_marker_43c7fb28001111f7da9ec1e743c0011a.bindPopup(popup_57f48c9962f03272b9a3fe6fee706c56)
+        ;
+
+        
+    
+    
+            var circle_marker_46d7cc1491dca08d6f88868a190d91fe = L.circleMarker(
+                [32.206833, 119.363861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.9, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_02822f46f1d3358f7000a50dd16960e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dd2fc9646c134b652013b4f8f28c309 = $(`<div id="html_6dd2fc9646c134b652013b4f8f28c309" style="width: 100.0%; height: 100.0%;">Runyang Bridge - 1490.0 m</div>`)[0];
+                popup_02822f46f1d3358f7000a50dd16960e6.setContent(html_6dd2fc9646c134b652013b4f8f28c309);
+            
+        
+
+        circle_marker_46d7cc1491dca08d6f88868a190d91fe.bindPopup(popup_02822f46f1d3358f7000a50dd16960e6)
+        ;
+
+        
+    
+    
+            var circle_marker_6bb49e93b9cab008567500e741be9168 = L.circleMarker(
+                [34.905944, 127.705028],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.45, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_4da3c8ac955eec8aef8b8bf3ce6fd91d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5c687a9e69631112fd5e547597228f8 = $(`<div id="html_d5c687a9e69631112fd5e547597228f8" style="width: 100.0%; height: 100.0%;">Yi Sun-sin Bridge - 1545.0 m</div>`)[0];
+                popup_4da3c8ac955eec8aef8b8bf3ce6fd91d.setContent(html_d5c687a9e69631112fd5e547597228f8);
+            
+        
+
+        circle_marker_6bb49e93b9cab008567500e741be9168.bindPopup(popup_4da3c8ac955eec8aef8b8bf3ce6fd91d)
+        ;
+
+        
+    
+    
+            var circle_marker_720d92a165a1522f37bcf1901313658f = L.circleMarker(
+                [40.75417, 29.51528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.5, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_ebc0cd47d9ff790e07fbc601c4860eb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e19ad4a64a0229c689dc7c8e88c51b5 = $(`<div id="html_4e19ad4a64a0229c689dc7c8e88c51b5" style="width: 100.0%; height: 100.0%;">Osman Gazi Bridge - 1550.0 m</div>`)[0];
+                popup_ebc0cd47d9ff790e07fbc601c4860eb8.setContent(html_4e19ad4a64a0229c689dc7c8e88c51b5);
+            
+        
+
+        circle_marker_720d92a165a1522f37bcf1901313658f.bindPopup(popup_ebc0cd47d9ff790e07fbc601c4860eb8)
+        ;
+
+        
+    
+    
+            var circle_marker_4b7c4dcdd292c9850bb2ac672781250b = L.circleMarker(
+                [55.34194, 11.035917],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.24, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_df475be2378fb77f9a61f7d08d4fe85c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b41a10777f6146b376e7fbda9cfc6fb7 = $(`<div id="html_b41a10777f6146b376e7fbda9cfc6fb7" style="width: 100.0%; height: 100.0%;">Great Belt Bridge - 1624.0 m</div>`)[0];
+                popup_df475be2378fb77f9a61f7d08d4fe85c.setContent(html_b41a10777f6146b376e7fbda9cfc6fb7);
+            
+        
+
+        circle_marker_4b7c4dcdd292c9850bb2ac672781250b.bindPopup(popup_df475be2378fb77f9a61f7d08d4fe85c)
+        ;
+
+        
+    
+    
+            var circle_marker_aedf019b8b05f454f5598c58d2fd4395 = L.circleMarker(
+                [30.061778, 121.916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.5, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_f27f2f0f3e2f43ac8a8e911d5ce279bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8eda666fd6f313743c1219699bc4b373 = $(`<div id="html_8eda666fd6f313743c1219699bc4b373" style="width: 100.0%; height: 100.0%;">Xihoumen Bridge - 1650.0 m</div>`)[0];
+                popup_f27f2f0f3e2f43ac8a8e911d5ce279bc.setContent(html_8eda666fd6f313743c1219699bc4b373);
+            
+        
+
+        circle_marker_aedf019b8b05f454f5598c58d2fd4395.bindPopup(popup_f27f2f0f3e2f43ac8a8e911d5ce279bc)
+        ;
+
+        
+    
+    
+            var circle_marker_935561fabf1c257dcd5d786cc4a72b81 = L.circleMarker(
+                [22.593778, 113.768222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.66, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_f8dc1a6c039f8140c529d954354d1367 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41c747d6fb5e994bfc315eb8313b4618 = $(`<div id="html_41c747d6fb5e994bfc315eb8313b4618" style="width: 100.0%; height: 100.0%;">Shenzhen–Zhongshan Bridge 深中通道伶仃航道桥 - 1666.0 m</div>`)[0];
+                popup_f8dc1a6c039f8140c529d954354d1367.setContent(html_41c747d6fb5e994bfc315eb8313b4618);
+            
+        
+
+        circle_marker_935561fabf1c257dcd5d786cc4a72b81.bindPopup(popup_f8dc1a6c039f8140c529d954354d1367)
+        ;
+
+        
+    
+    
+            var circle_marker_1518697872caf40175cd3550b66b4afe = L.circleMarker(
+                [22.88475, 113.565667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.88, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_efd0ca2eeda82ef42c80241a42b42b0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67055b4bfc7d84ac895f0cb1303985ec = $(`<div id="html_67055b4bfc7d84ac895f0cb1303985ec" style="width: 100.0%; height: 100.0%;">Nansha Bridge (East span) - 1688.0 m</div>`)[0];
+                popup_efd0ca2eeda82ef42c80241a42b42b0f.setContent(html_67055b4bfc7d84ac895f0cb1303985ec);
+            
+        
+
+        circle_marker_1518697872caf40175cd3550b66b4afe.bindPopup(popup_efd0ca2eeda82ef42c80241a42b42b0f)
+        ;
+
+        
+    
+    
+            var circle_marker_6b6c87423464198df4deafd5130e2215 = L.circleMarker(
+                [30.50667, 114.25667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_e05e95113ed1b1cb995acd0a8889a314 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebd683d1b889c5d2301cc1e2774d11f1 = $(`<div id="html_ebd683d1b889c5d2301cc1e2774d11f1" style="width: 100.0%; height: 100.0%;">Yangsigang Yangtze River Bridge - 1700.0 m</div>`)[0];
+                popup_e05e95113ed1b1cb995acd0a8889a314.setContent(html_ebd683d1b889c5d2301cc1e2774d11f1);
+            
+        
+
+        circle_marker_6b6c87423464198df4deafd5130e2215.bindPopup(popup_e05e95113ed1b1cb995acd0a8889a314)
+        ;
+
+        
+    
+    
+            var circle_marker_5419254ece2a28af8fb6fcbeccd7a429 = L.circleMarker(
+                [34.617028, 135.021917],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.91, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_8984b632e0fefd476d6cb3f69d5f2bc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6ab962c336d7a4d1d5015f9373cddc0 = $(`<div id="html_b6ab962c336d7a4d1d5015f9373cddc0" style="width: 100.0%; height: 100.0%;">Akashi Kaikyo Bridge - 1991.0 m</div>`)[0];
+                popup_8984b632e0fefd476d6cb3f69d5f2bc5.setContent(html_b6ab962c336d7a4d1d5015f9373cddc0);
+            
+        
+
+        circle_marker_5419254ece2a28af8fb6fcbeccd7a429.bindPopup(popup_8984b632e0fefd476d6cb3f69d5f2bc5)
+        ;
+
+        
+    
+    
+            var circle_marker_986632c076ec202caa127c182bc565df = L.circleMarker(
+                [40.33833, 26.63278],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.23, "stroke": true, "weight": 3}
+            ).addTo(map_0a4243af14f41221eec6bd72158969a3);
+        
+    
+        var popup_ce5eeb05dba68a60a261370fac8f982e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f160de77da8c379583d5acca05246a8 = $(`<div id="html_6f160de77da8c379583d5acca05246a8" style="width: 100.0%; height: 100.0%;">1915 Çanakkale Bridge - 2023.0 m</div>`)[0];
+                popup_ce5eeb05dba68a60a261370fac8f982e.setContent(html_6f160de77da8c379583d5acca05246a8);
+            
+        
+
+        circle_marker_986632c076ec202caa127c182bc565df.bindPopup(popup_ce5eeb05dba68a60a261370fac8f982e)
+        ;
+
+        
+    
+</script>
+</html>
